@@ -31,6 +31,6 @@ RUN make install
 #open service port
 EXPOSE 9640 19640
 
-WORKDIR /lingcoin/src
-ENTRYPOINT [./lingcoind]
-#CMD ["lingcoind", "--printtoconsole"]
+#WORKDIR /lingcoin/src
+#ENTRYPOINT [./lingcoind]
+CMD ["lingcoind", "--printtoconsole"]
