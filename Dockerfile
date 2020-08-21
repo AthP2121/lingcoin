@@ -28,7 +28,6 @@ RUN ./configure
 RUN make
 RUN make install
 
-COPY peers.dat /root/.lincoin/peers.dat
 #open service port
 EXPOSE 9640 19640
 
