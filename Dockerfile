@@ -33,4 +33,5 @@ EXPOSE 9640 19640
 
 #WORKDIR /lingcoin/src
 #ENTRYPOINT [./lingcoind]
-CMD ["lingcoind", "--printtoconsole"]
+#CMD ["lingcoind", "--printtoconsole"]
+CMD ["lingcoin-qt"]
