@@ -150,7 +150,7 @@ public:
             // Data from rpc: getchaintxstats 4096 2cdba8c47858d34cf0e02dfb8733263a3ed8705b1663ec7c158783d77b93e7ee
             /* nTime    */ 1513784917,
             /* nTxCount */ 0,
-            /* dTxRate  */ 0.0
+            /* dTxRate  */ 4.0
         };
 
         /* disable fallback fee on mainnet */
@@ -244,7 +244,7 @@ public:
             // Data from rpc: getchaintxstats 4096 e79561972208ba3a02c308482176b33f3ec841d4213ea7bbaa3f22b7c8a16f32
             /* nTime    */ 1513784917,
             /* nTxCount */ 0,
-            /* dTxRate  */ 0.0
+            /* dTxRate  */ 4.0
         };
 
         /* enable fallback fee on testnet */
